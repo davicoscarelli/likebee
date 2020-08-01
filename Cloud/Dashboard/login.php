@@ -1,5 +1,5 @@
 <?php
-include('connection.php'); 
+include('session.php'); 
 session_start();  
 $error = '';  
 if (isset($_POST['submit'])) { 

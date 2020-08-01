@@ -1,6 +1,5 @@
 <?php
 require("session.php");
-include('connection.php'); 
 
 function parseToXML($htmlStr)
 {

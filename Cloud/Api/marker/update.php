@@ -6,7 +6,7 @@
     header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
     
     include_once '../config/database.php';
-    include_once '../objects/marker.php';
+    include_once '../models/marker.php';
     
     $database = new Database();
     $db = $database->getConnection();
